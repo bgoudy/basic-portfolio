@@ -4,55 +4,58 @@
 }
 
 .name{
-    background: #4aaaa5;
+    background: #524f4f;
     color: rgb(239, 243, 247);
     font-size: 32px;
-    margin: 0px 1000px 0px 0px;
+    margin: 0px 980px 0px 0px;
     position: relative;
     float: left;
     /*display: inline-flex;*/
 }
 
+li a {
+    color: whitesmoke;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px 10px 0px 0px;
+}
 .navbar{
-    display: flex;
-    /*position: fixed;*/
-    flex-direction: row;
-    justify-content: flex-end;
+    position: relative;
     overflow: hidden;
-   /* margin: 0px 150px;*/
-    background: #ffffff;
+    background: #524f4f;
     border: 1px #cccccc;
     width: 100%;
-    height: 50px;
+    height: 60px;
 
     }
 
 .about{
     text-align: left;
-    display: flex;
-    flex-flow: row wrap;
     margin: 100px 100px 0px 325px;
     width: 800px;
     height: 400px;
     background: #ffffff;
 }
-.image{
+#profile-img{
     height:200px;
+    margin-right: 20px;
     display: flex;
     flex-flow: row wrap;
     float: left;
 }
 .container{
-
+    margin: 50px 0px 0px 500px;
+    line-height: 20px;
 }
 .footer{
     position: absolute;
-    left: 0;
+    left: 0px;
     bottom: 0;
-    height: 50px;
+    height: 10%;
     width: 100%;
     border: 1px default #4aaaa5;
-    background: #666666;
+    background: #524f4f;
     font-size: 10px;
     color: white;
     text-align: center;
@@ -63,11 +66,13 @@
     display: table;
   }*/
 body{
-      background-image: assets/images/floor-tile/floor-tile.png;
+      background-image: "C:\Users\Brendan\code\basic-portfolio\assets\images\floor-tile\floor-tile.png" ;
+      margin: 0px;
+      padding: 0px;
   }
 
 h1{
-      color: #4aaaa5;
+      color: #524f4f;
   }
 
 ul{
@@ -83,4 +88,7 @@ li {
 
 ::-webkit-scrollbar { 
     display: none; 
+}
+label {
+    margin-bottom: 20px;
 }
